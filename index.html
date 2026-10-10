@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>درس: القصاصة الصحفية</title>
+<style>
+  :root { --ink:#172033; --blue:#2457a7; --pale:#eef4ff; --line:#d7deea; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#f3f5f9; color:var(--ink); font-family:Tahoma, Arial, sans-serif; line-height:1.9; }
+  .page { max-width:850px; margin:24px auto; background:#fff; padding:38px; border-radius:14px; box-shadow:0 8px 28px #18274414; }
+  header { text-align:center; border-bottom:3px solid var(--blue); padding-bottom:18px; margin-bottom:24px; }
+  .eyebrow { color:var(--blue); font-size:14px; font-weight:bold; }
+  h1 { margin:6px 0; font-size:30px; color:#183d78; }
+  .subtitle { margin:0; color:#5c6678; }
+  h2 { color:#183d78; font-size:21px; border-right:4px solid var(--blue); padding-right:10px; margin-top:28px; }
+  .info { display:flex; gap:12px; flex-wrap:wrap; margin:18px 0; }
+  .info span { flex:1; min-width:150px; border:1px solid var(--line); border-radius:8px; padding:8px 12px; }
+  .definition { background:var(--pale); border:1px solid #d8e5ff; border-radius:10px; padding:15px 18px; }
+  .sample { border:1px solid var(--line); border-radius:10px; padding:18px; background:#fffdf8; }
+  .sample .paper-name { font-size:13px; color:#5d6470; border-bottom:1px solid var(--line); padding-bottom:7px; }
+  .sample h3 { font-size:22px; margin:12px 0 4px; color:#222; }
+  .sample .lead { font-weight:bold; color:#374151; }
+  .sample .source { font-size:13px; color:#687386; margin-top:12px; }
+  ul { padding-right:24px; }
+  .question { padding:13px 15px; border:1px solid var(--line); border-radius:9px; margin:12px 0; break-inside:avoid; }
+  .question p { margin:0 0 7px; font-weight:bold; }
+  label { display:block; padding:3px 0; cursor:pointer; }
+  input[type=radio] { accent-color:var(--blue); margin-left:7px; }
+  .actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:20px; }
+  button { border:0; border-radius:8px; padding:10px 16px; font:inherit; font-weight:bold; cursor:pointer; }
+  .primary { background:var(--blue); color:white; }
+  .secondary { background:#e8edf5; color:#243047; }
+  #result { display:none; margin-top:16px; padding:13px; background:#edf8f0; border:1px solid #bfe5c8; border-radius:8px; font-weight:bold; }
+  .answers { display:none; background:#f7f8fb; border:1px dashed #aeb8ca; padding:12px 18px; border-radius:8px; }
+  footer { margin-top:28px; border-top:1px solid var(--line); padding-top:12px; color:#687386; font-size:12px; text-align:center; }
+  @media(max-width:600px) { .page { margin:0; padding:22px 16px; border-radius:0; } h1{font-size:25px;} }
+  @media print {
+    body { background:#fff; }
+    .page { max-width:none; margin:0; padding:12mm; box-shadow:none; border-radius:0; }
+    .actions, #result { display:none !important; }
+    .question { break-inside:avoid; }
+    .answers { display:none !important; }
+    @page { size:A4; margin:12mm; }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+  <header>
+    <div class="eyebrow">اللغة العربية • فهم المقروء والتعبير الصحفي</div>
+    <h1>القصاصة الصحفية</h1>
+    <p class="subtitle">درس مبسّط مع نموذج تطبيقي وأسئلة اختيار من متعدد (QCM)</p>
+  </header>
+
+  <div class="info">
+    <span><strong>اسم التلميذ:</strong> ................................</span>
+    <span><strong>القسم:</strong> ....................</span>
+    <span><strong>التاريخ:</strong> .... / .... / ........</span>
+  </div>
+
+  <section>
+    <h2>1. تعريف القصاصة الصحفية</h2>
+    <div class="definition">
+      <strong>القصاصة الصحفية</strong> نصّ قصير يُقتطع أو يُحفظ من صحيفة أو مجلة، ويتناول خبراً أو حدثاً أو موضوعاً محدداً. وقد تُستخدم للقراءة أو التوثيق أو الدراسة.
+    </div>
+    <p>تجيب القصاصة الخبرية غالباً عن أسئلة أساسية: <strong>من؟ ماذا؟ أين؟ متى؟ كيف؟ ولماذا؟</strong> بحسب طبيعة الخبر والمعلومات المتاحة.</p>
+  </section>
+
+  <section>
+    <h2>2. أهم عناصر القصاصة الصحفية</h2>
+    <ul>
+      <li><strong>العنوان:</strong> يوجز الموضوع ويجذب انتباه القارئ.</li>
+      <li><strong>المقدمة أو التمهيد:</strong> تعرض أهم معلومة في الخبر.</li>
+      <li><strong>المتن:</strong> يشرح الحدث ويقدّم تفاصيله.</li>
+      <li><strong>المصدر:</strong> اسم الصحيفة أو الموقع الذي نُشر فيه الخبر.</li>
+      <li><strong>التاريخ والمكان:</strong> يحددان زمن الحدث وموقعه عندما يكونان متوفرين.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. نموذج تطبيقي</h2>
+    <article class="sample">
+      <div class="paper-name">نموذج تعليمي افتراضي — صحيفة المدرسة</div>
+      <h3>تلاميذ ينظمون حملة للنظافة في مدرستهم</h3>
+      <p class="lead">نظّم تلاميذ إحدى المدارس، صباح يوم الثلاثاء، حملة تطوعية لنظافة الساحة المدرسية، بمشاركة عدد من المعلمين.</p>
+      <p>وهدفت الحملة إلى ترسيخ روح التعاون والمحافظة على البيئة المدرسية. وقد جُمعت النفايات ووُضعت في الأماكن المخصصة لها، كما دعا المشاركون زملاءهم إلى المحافظة على نظافة المدرسة طوال العام.</p>
+      <div class="source">المصدر: صحيفة المدرسة — مثال افتراضي لأغراض التعليم.</div>
+    </article>
+    <p><strong>ملاحظة:</strong> في هذا النموذج، العنوان يوضح الحدث، والمقدمة تلخص أهم المعلومات، والمتن يشرح الهدف والأنشطة، والمصدر يبين جهة النشر.</p>
+  </section>
+
+  <section>
+    <h2>4. أسئلة اختيار من متعدد (QCM)</h2>
+    <p>اختر إجابة واحدة صحيحة لكل سؤال، ثم اضغط على «تصحيح الإجابات» لمعرفة نتيجتك.</p>
+    <form id="quiz">
+      <div class="question">
+        <p>1. ما المقصود بالقصاصة الصحفية؟</p>
+        <label><input type="radio" name="q1" value="a"> قصة خيالية طويلة</label>
+        <label><input type="radio" name="q1" value="b"> نص قصير محفوظ أو مقتطع من صحيفة أو مجلة</label>
+        <label><input type="radio" name="q1" value="c"> رسالة شخصية</label>
+      </div>
+      <div class="question">
+        <p>2. ما الوظيفة الأساسية للعنوان؟</p>
+        <label><input type="radio" name="q2" value="a"> إخفاء موضوع الخبر</label>
+        <label><input type="radio" name="q2" value="b"> ذكر جميع التفاصيل</label>
+        <label><input type="radio" name="q2" value="c"> تلخيص الموضوع وجذب انتباه القارئ</label>
+      </div>
+      <div class="question">
+        <p>3. أين نجد عادةً تفاصيل الحدث؟</p>
+        <label><input type="radio" name="q3" value="a"> في المتن</label>
+        <label><input type="radio" name="q3" value="b"> في اسم التلميذ</label>
+        <label><input type="radio" name="q3" value="c"> في رقم الصفحة فقط</label>
+      </div>
+      <div class="question">
+        <p>4. أي سؤال من الأسئلة الآتية يساعد على تحديد مكان الحدث؟</p>
+        <label><input type="radio" name="q4" value="a"> لماذا؟</label>
+        <label><input type="radio" name="q4" value="b"> أين؟</label>
+        <label><input type="radio" name="q4" value="c"> كيف؟</label>
+      </div>
+      <div class="question">
+        <p>5. ما الهدف من حملة التلاميذ في النموذج؟</p>
+        <label><input type="radio" name="q5" value="a"> تنظيم رحلة خارج المدرسة</label>
+        <label><input type="radio" name="q5" value="b"> إقامة مباراة رياضية</label>
+        <label><input type="radio" name="q5" value="c"> تنظيف الساحة والمحافظة على البيئة المدرسية</label>
+      </div>
+      <div class="question">
+        <p>6. لماذا يُذكر مصدر القصاصة؟</p>
+        <label><input type="radio" name="q6" value="a"> لمعرفة الجهة التي نشرت الخبر</label>
+        <label><input type="radio" name="q6" value="b"> لزيادة طول النص فقط</label>
+        <label><input type="radio" name="q6" value="c"> لأنه بديل عن العنوان</label>
+      </div>
+      <div class="question">
+        <p>7. أيّ مما يأتي يُعدّ من عناصر القصاصة الصحفية؟</p>
+        <label><input type="radio" name="q7" value="a"> قائمة المشتريات</label>
+        <label><input type="radio" name="q7" value="b"> العنوان والمقدمة والمتن والمصدر</label>
+        <label><input type="radio" name="q7" value="c"> الحوار المسرحي فقط</label>
+      </div>
+      <div class="question">
+        <p>8. ما الفكرة الرئيسية للنموذج الصحفي؟</p>
+        <label><input type="radio" name="q8" value="a"> أهمية النظافة والتعاون في المدرسة</label>
+        <label><input type="radio" name="q8" value="b"> نتائج امتحان نهاية السنة</label>
+        <label><input type="radio" name="q8" value="c"> افتتاح مكتبة عامة</label>
+      </div>
+      <div class="actions">
+        <button class="primary" type="button" onclick="gradeQuiz()">تصحيح الإجابات</button>
+        <button class="secondary" type="button" onclick="toggleAnswers()">إظهار / إخفاء نموذج الإجابة</button>
+        <button class="secondary" type="button" onclick="window.print()">طباعة أو حفظ بصيغة PDF</button>
+        <button class="secondary" type="reset" onclick="resetQuiz()">إعادة المحاولة</button>
+      </div>
+      <div id="result" role="status" aria-live="polite"></div>
+    </form>
+    <div id="answers" class="answers">
+      <strong>نموذج الإجابة:</strong>
+      1- ب، 2- ج، 3- أ، 4- ب، 5- ج، 6- أ، 7- ب، 8- أ.
+    </div>
+  </section>
+
+  <section>
+    <h2>5. نشاط قصير</h2>
+    <p>اقرأ خبراً من صحيفة أو موقع موثوق، ثم دوّن عنوانه ومصدره وتاريخه، وحدد في سطر واحد الفكرة الرئيسية منه.</p>
+    <p><strong>عنوان الخبر:</strong> ....................................................................................................</p>
+    <p><strong>المصدر والتاريخ:</strong> .................................................................................................</p>
+    <p><strong>الفكرة الرئيسية:</strong> ....................................................................................................</p>
+  </section>
+
+  <footer>ورقة تعليمية قابلة للطباعة — يمكن حفظها PDF من نافذة الطباعة في المتصفح.</footer>
+</main>
+<script>
+  const correct = {q1:'b', q2:'c', q3:'a', q4:'b', q5:'c', q6:'a', q7:'b', q8:'a'};
+  function gradeQuiz() {
+    let score = 0;
+    let unanswered = 0;
+    for (const [name, answer] of Object.entries(correct)) {
+      const selected = document.querySelector('input[name="' + name + '"]:checked');
+      if (!selected) unanswered++;
+      else if (selected.value === answer) score++;
+    }
+    const result = document.getElementById('result');
+    result.style.display = 'block';
+    result.textContent = unanswered
+      ? 'نتيجتك: ' + score + ' من ' + Object.keys(correct).length + '. ما زال لديك ' + unanswered + ' سؤال/أسئلة دون إجابة.'
+      : 'نتيجتك: ' + score + ' من ' + Object.keys(correct).length + '. ' + (score === 8 ? 'ممتاز! أجبت عن جميع الأسئلة بشكل صحيح.' : 'راجع نموذج الإجابة وحاول مرة أخرى.');
+  }
+  function toggleAnswers() {
+    const answers = document.getElementById('answers');
+    answers.style.display = answers.style.display === 'block' ? 'none' : 'block';
+  }
+  function resetQuiz() {
+    document.getElementById('result').style.display = 'none';
+  }
+</script>
+</body>
+</html>
